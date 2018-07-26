@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="author" content="Amanda Devine">
-  <meta name="dcterms.date" content="2018-07-27">
+  <meta name="dcterms.date" content="27 July 2018">
   <title>Exploring Endangered Species with Python</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -33,54 +33,122 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide">
-  <h1 class="title">Exploring Endangered Species with Python</h1>
-  <p class="author">Amanda Devine</p>
-  <p class="date">27 July 2018</p>
-</section>
 
-<section id="about-me" class="slide level2">
-<h2>About Me</h2>
+<section><section id="section" class="title-slide slide level1" data-background-image="img/grey-crowned-cranes.jpeg"><h1></h1></section><section id="exploring-endangered-species-data-with-python" class="slide level2 customtitle" data-background-image="img/grey-crowned-cranes.jpeg">
+<h2>Exploring Endangered Species Data with Python</h2>
+<p style="text-align: center; margin-top: 300px">
+Amanda Devine
+</p>
+<p style="text-align: center;">
+28 July 2018
+</p>
+<p style="text-align: center;">
+National Museum of Natural History
+</p>
+</section></section>
+<section><section id="about-me" class="title-slide slide level1" data-background-image="img/giant-panda.jpeg"><h1>About Me</h1></section><section id="bio" class="slide level2">
+<h2>Bio</h2>
 <div class="columns">
-<div class="column" style="width:65%;">
+<div class="column" style="width:70%;">
 <ul>
-<li><p>Montgomery County, MD native</p></li>
-<li><p>Winston Churchill High School (go Bulldogs!)</p></li>
+<li>Montgomery County, MD native</li>
+<li>Winston Churchill High School (go Bulldogs!)</li>
 <li>Dartmouth College
 <ul>
 <li>Biology (Ecology) and Neuroscience</li>
 </ul></li>
 <li>Lab technician
 <ul>
-<li>dermatology research lab</li>
-<li>infectious disease diagnostic lab</li>
-<li>coral reef organism research project (NMNH)</li>
+<li>dermatology, infectious disease, coral reefs</li>
 </ul></li>
-<li>January 2015 to present: data wrangler
+<li>Data wrangler
 <ul>
 <li>Global Genome Initiative</li>
 </ul></li>
 </ul>
-</div><div class="column" style="width:35%;">
-<p><img data-src="img\about_me.jpg" /></p>
+</div><div class="column" style="width:30%;">
+<p><img data-src="img/about_me.jpg" /></p>
 </div>
 </div>
-</section>
-<section id="global-genome-initiative-ggi" class="slide level2">
+</section><section id="global-genome-initiative-ggi" class="slide level2">
 <h2>Global Genome Initiative (GGI)</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="img/ava-sample-tubes-2.jpg" /></p>
+</div><div class="column" style="width:70%;">
 <ul>
 <li>Smithsonian initiative</li>
 <li>collect all of life on Earth</li>
 <li>preserve in cryorepositories for genomic research</li>
 <li>sample data recorded in the <a href="http://data.ggbn.org/ggbn_portal/">Global Genome Biodiversity Network (GGBN) Data Portal</a></li>
 </ul>
-</section>
-<section id="image-credits" class="slide level2">
+</div>
+</div>
+</section></section>
+<section><section id="data-wrangling" class="title-slide slide level1" data-background-image="img/whale-shark.jpg"><h1>Data Wrangling</h1></section><section id="what-is-data-wrangling" class="slide level2">
+<h2>What is Data Wrangling?</h2>
+<div class="columns">
+<div class="column" style="width:30%;">
+<p><img data-src="img/wonder-woman-lasso.jpg" /></p>
+</div><div class="column" style="width:70%;">
+<p style="font-size:.7em;margin-bottom:1.5em;">
+Per <a href="https://en.wikipedia.org/wiki/Data_wrangling">Wikipedia</a>: <em>Transforming and mapping data from one raw data form into another format with the intent of making it [useful] for a variety of downstream purposes, such as analytics.</em>
+</p>
+<p>My favorite tools:</p>
+<ul>
+<li>scripting languages: Python, R, VBA</li>
+<li>applications: <a href="http://openrefine.org/">OpenRefine</a>, <a href="http://jupyter.org/">Jupyter Notebook</a>, Excel, <a href="http://pandoc.org/MANUAL.html">Pandoc</a></li>
+<li>version control: GitHub</li>
+</ul>
+</div>
+</div>
+</section><section id="jupyter-notebook" class="slide level2">
+<h2>Jupyter Notebook</h2>
+<p><a href="http://jupyter.org/">Jupyter Notebook</a></p>
+</section><section id="openrefine" class="slide level2">
+<h2>OpenRefine</h2>
+<p><a href="http://openrefine.org/">OpenRefine</a></p>
+</section><section id="pandoc" class="slide level2">
+<h2>Pandoc</h2>
+<p><a href="http://pandoc.org/MANUAL.html">Pandoc</a></p>
+</section></section>
+<section><section id="endangered-species-data" class="title-slide slide level1" data-background-image="img/golden-toad.jpg"><h1>Endangered Species Data</h1></section><section id="environmental-conservation-online-system" class="slide level2">
+<h2>Environmental Conservation Online System</h2>
+<ul>
+<li>U.S. Fish &amp; Wildlife Service</li>
+</ul>
+<p>https://ecos.fws.gov/ecp0/reports/ad-hoc-species-report</p>
+<p>kingdom=V&amp;kingdom=I&amp;status=E&amp;status=T&amp;status=EmE&amp;status=EmT&amp;status=EXPE&amp;status=EXPN&amp;status=SAE&amp;status=SAT&amp;mapstatus=3&amp;fcrithab=on&amp;fstatus=on&amp;fspecrule=on&amp;finvpop=on&amp;fgroup=on&amp;header=Listed+Animals</p>
+</section></section>
+<section><section id="thanks" class="title-slide slide level1" data-background-image="img/rafflesia.jpg"><h1>Thanks!</h1></section><section id="resources-working-with-data-in-python" class="slide level2">
+<h2>Resources: Working with Data in Python</h2>
+<ul>
+<li><p><strong>Automate the Boring Stuff with Python</strong>. <a href="https://automatetheboringstuff.com/" class="uri">https://automatetheboringstuff.com/</a></p></li>
+<li><p><strong>Python Data Science Handbook</strong>. <a href="https://jakevdp.github.io/PythonDataScienceHandbook/" class="uri">https://jakevdp.github.io/PythonDataScienceHandbook/</a></p></li>
+<li><p>Coursera: <strong>Using Python to Access Web Data</strong>. <a href="https://www.coursera.org/learn/python-network-data" class="uri">https://www.coursera.org/learn/python-network-data</a> (Can choose to audit the course for free.)</p></li>
+<li><p>Coursera: <strong>Using Databases with Python</strong>. <a href="https://www.coursera.org/learn/python-databases" class="uri">https://www.coursera.org/learn/python-databases</a> (Can choose to audit the course for free.)</p></li>
+</ul>
+</section><section id="resources-coding-groups-and-organizations" class="slide level2">
+<h2>Resources: Coding Groups and Organizations</h2>
+<ul>
+<li><p><strong>Women Who Code DC</strong>. Meetup group for female-identifying coders in the Washington, DC area. Covers many different tech-related topics, frequent meetups. <a href="https://www.meetup.com/Women-Who-Code-DC/" class="uri">https://www.meetup.com/Women-Who-Code-DC/</a></p></li>
+<li><p><strong>Hear Me Code</strong>. Organization that offers beginner coding lessons for women in the Washington, DC area. Also has an excellent Google group that emails out about a lot of professional opportunities. <a href="https://hearmecode.com/" class="uri">https://hearmecode.com/</a></p></li>
+<li><p><strong>Data Carpentry</strong>. National organization that offers workshops on data wrangling. The website contains workshop materials if you can’t attend a workshop in person. <a href="https://datacarpentry.org/" class="uri">https://datacarpentry.org/</a></p></li>
+</ul>
+</section><section id="image-credits" class="slide level2">
 <h2>Image Credits</h2>
-<p>Title Slide: Grey Crowned Cranes. Image from Pixabay, CC0 License. (https://www.pexels.com/photo/nature-bird-love-heart-45853/)[https://www.pexels.com/photo/nature-bird-love-heart-45853/]</p>
-<p>About Me: Personal Photo</p>
-<p>Global Genome Initative: Tissue samples in the NMNH Biorepository. Photo by Adrian Van Allen, 2015.</p>
-</section>
+<p><small></p>
+<p><strong>Title Slide</strong>: Grey Crowned Cranes. Image from Pexels, CC0 License. <a href="https://www.pexels.com/photo/nature-bird-love-heart-45853/" class="uri">https://www.pexels.com/photo/nature-bird-love-heart-45853/</a></p>
+<p><strong>About Me</strong>: Giant Panda. Photo by Cesar Aguilar from Pexels, Pexels License. <a href="https://www.pexels.com/photo/panda-1123765/" class="uri">https://www.pexels.com/photo/panda-1123765/</a></p>
+<p><strong>Bio</strong>: Personal photo.</p>
+<p><strong>Global Genome Initative</strong>: Tissue samples in the NMNH Biorepository. Photo by Adrian Van Allen, 2015.</p>
+<p><strong>Data Wrangling</strong>: Whale shark at the Georgia Aquarium. Photo by Zac Wolf; CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=3511009</p>
+<p><strong>Data Wrangling</strong>: Wonder Woman: Wonder Woman with Lasso. Image from AllPosters. <a href="https://www.allposters.ca/-sp/Wonder-Woman-Wonder-Woman-with-Lasso-posters_i13190262_.htm" class="uri">https://www.allposters.ca/-sp/Wonder-Woman-Wonder-Woman-with-Lasso-posters_i13190262_.htm</a></p>
+<p><strong>Endangered Species Data</strong>: Bufo periglenes (Golden toad). Photo by Charles H. Smith. Retrieved from Wikipedia: <a href="https://commons.wikimedia.org/wiki/File:Bufo_periglenes1.jpg" class="uri">https://commons.wikimedia.org/wiki/File:Bufo_periglenes1.jpg</a></p>
+<p><strong>Thanks</strong>: Rafflesia arnoldii. Image from lazypenguins.com, blog post “15 strangely beautiful flowers”. <a href="https://lazypenguins.com/15-strangely-beautiful-flowers/" class="uri">https://lazypenguins.com/15-strangely-beautiful-flowers/</a></p>
+<p><strong>Thanks</strong>: Joes Apartment Cockroach GIF. Image from GIPHY. <a href="https://giphy.com/gifs/scarface-when-mtv-was-worth-watching-joes-apartment-CbY83hpLkcrZe" class="uri">https://giphy.com/gifs/scarface-when-mtv-was-worth-watching-joes-apartment-CbY83hpLkcrZe</a></p>
+<p></small></p>
+</section></section>
     </div>
   </div>
 
@@ -96,8 +164,6 @@
         slideNumber: true,
         // Push each slide change to the browser history
         history: true,
-        // Vertical centering of slides
-        center: false,
         // The "normal" size of the presentation, aspect ratio will be preserved
         // when the presentation is scaled to fit different resolutions. Can be
         // specified using percentage units.
