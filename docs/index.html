@@ -34,38 +34,28 @@
     <div class="slides">
 
 
-<section><section id="section" class="title-slide slide level1" data-background-image="img/grey-crowned-cranes.jpeg"><h1></h1></section><section id="exploring-endangered-species-data-with-python" class="slide level2 customtitle" data-background-image="img/grey-crowned-cranes.jpeg">
+<section><section id="exploring-endangered-species-data-with-python" class="title-slide slide level1" data-background-image="img/grey-crowned-cranes.jpeg"><h1>Exploring Endangered Species Data with Python</h1></section><section id="exploring-endangered-species-data-with-python-1" class="slide level2">
 <h2>Exploring Endangered Species Data with Python</h2>
-<p style="text-align: center; margin-top: 300px">
-Amanda Devine
-</p>
-<p style="text-align: center;">
-28 July 2018
-</p>
-<p style="text-align: center;">
-National Museum of Natural History
-</p>
+<div class="columns">
+<div class="column" style="width:25%;">
+<p><img data-src="img/nmnh.jpg" /></p>
+</div><div class="column" style="width:75%;">
+<p><strong>Amanda Devine</strong></p>
+<p>Data Wrangler, Global Genome Initiative</p>
+<p>27 July 2018</p>
+<p><small>Girls Who Code Summer Immersion Program in Washington DC field trip to the Smithsonian National Museum of Natural History</small></p>
+<p><small>Slides and Jupyter notebook available at <a href="https://github.com/amdevine/gwc-endangered-species" class="uri">https://github.com/amdevine/gwc-endangered-species</a></small></p>
+</div>
+</div>
 </section></section>
 <section><section id="about-me" class="title-slide slide level1" data-background-image="img/giant-panda.jpeg"><h1>About Me</h1></section><section id="bio" class="slide level2">
 <h2>Bio</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
-<ul>
-<li>Montgomery County, MD native</li>
-<li>Winston Churchill High School (go Bulldogs!)</li>
-<li>Dartmouth College
-<ul>
-<li>Biology (Ecology) and Neuroscience</li>
-</ul></li>
-<li>Lab technician
-<ul>
-<li>dermatology, infectious disease, coral reefs</li>
-</ul></li>
-<li>Data wrangler
-<ul>
-<li>Global Genome Initiative</li>
-</ul></li>
-</ul>
+<p>Winston Churchill High School (go Bulldogs!)</p>
+<p>Dartmouth College (BA in Biology (Ecology) and Neuroscience</p>
+<p>Lab technician (dermatology, infectious disease, coral reefs)</p>
+<p>Data wrangler for the Global Genome Initiative</p>
 </div><div class="column" style="width:30%;">
 <p><img data-src="img/about_me.jpg" /></p>
 </div>
@@ -76,12 +66,10 @@ National Museum of Natural History
 <div class="column" style="width:30%;">
 <p><img data-src="img/ava-sample-tubes-2.jpg" /></p>
 </div><div class="column" style="width:70%;">
-<ul>
-<li>Smithsonian initiative</li>
-<li>collect all of life on Earth</li>
-<li>preserve in cryorepositories for genomic research</li>
-<li>sample data recorded in the <a href="http://data.ggbn.org/ggbn_portal/">Global Genome Biodiversity Network (GGBN) Data Portal</a></li>
-</ul>
+<p>Smithsonian initiative</p>
+<p>collect all of life on Earth</p>
+<p>preserve in cryorepositories for genomic research</p>
+<p>sample data recorded in the <a href="http://data.ggbn.org/ggbn_portal/">Global Genome Biodiversity Network (GGBN) Data Portal</a></p>
 </div>
 </div>
 </section></section>
@@ -104,13 +92,39 @@ Per <a href="https://en.wikipedia.org/wiki/Data_wrangling">Wikipedia</a>: <em>Tr
 </div>
 </section><section id="jupyter-notebook" class="slide level2">
 <h2>Jupyter Notebook</h2>
-<p><a href="http://jupyter.org/">Jupyter Notebook</a></p>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Document that contains executable Python code and Markdown-formatted text</p>
+<p>Good for running self-contained analyses</p>
+<p>Easily share with others</p>
+<p><strong><a href="https://irkernel.github.io/">IRkernel</a></strong>: Run notebooks with R instead of Python</p>
+<p><strong><a href="https://nbviewer.jupyter.org/">nbviewer</a></strong>: Converts notebooks to shareable HTML documents</p>
+<p><strong><a href="https://github.com/damianavila/RISE">RISE</a></strong>: Run a Jupyter notebook as a slide show</p>
+</div><div class="column" style="width:30%;">
+<p><img data-src="img/jupyternb.jpg" /></p>
+</div>
+</div>
 </section><section id="openrefine" class="slide level2">
 <h2>OpenRefine</h2>
-<p><a href="http://openrefine.org/">OpenRefine</a></p>
-</section><section id="pandoc" class="slide level2">
-<h2>Pandoc</h2>
-<p><a href="http://pandoc.org/MANUAL.html">Pandoc</a></p>
+<div class="columns">
+<div class="column" style="width:60%;">
+<p><img data-src="img/openrefine.jpg" /></p>
+</div><div class="column" style="width:40%;">
+<p>Powerful tool for cleaning messy data</p>
+<p>Complex filtering, sorting, and grouping</p>
+<p>Mass editing records</p>
+<p>Special language (<a href="https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language">GREL</a>) to filter and edit data with formulas</p>
+</div>
+</div>
+</section><section id="r" class="slide level2">
+<h2>R</h2>
+<p>Programming language developed for statistics</p>
+<p>Powerful at data manipulation</p>
+<p>More intuitive than Python when working with data? ¯\<em>(ツ)</em>/¯</p>
+<p><strong><a href="https://www.rstudio.com/">RStudio</a></strong>: popular R development software</p>
+<p><strong><a href="https://shiny.rstudio.com/">Shiny</a></strong>: R library, easily develop web apps to vizualize data</p>
+</section><section class="slide level2">
+
 </section></section>
 <section><section id="endangered-species-data" class="title-slide slide level1" data-background-image="img/golden-toad.jpg"><h1>Endangered Species Data</h1></section><section id="environmental-conservation-online-system" class="slide level2">
 <h2>Environmental Conservation Online System</h2>

@@ -8,15 +8,26 @@ center: false
 width: 1400
 ---
 
-# {data-background-image="img/grey-crowned-cranes.jpeg"}
+# Exploring Endangered Species Data with Python {data-background-image="img/grey-crowned-cranes.jpeg"}
 
-## Exploring Endangered Species Data with Python {.customtitle data-background-image="img/grey-crowned-cranes.jpeg"}
+## Exploring Endangered Species Data with Python ##
 
-<p style="text-align: center; margin-top: 300px">Amanda Devine</p> 
+:::::::::::::: {.columns}
+::: {.column width="25%"}
+![](img/nmnh.jpg)
+:::
+::: {.column width="75%"}
+**Amanda Devine**
 
-<p style="text-align: center;">28 July 2018</p>
+Data Wrangler, Global Genome Initiative
 
-<p style="text-align: center;">National Museum of Natural History</p>
+27 July 2018
+
+<small>Girls Who Code Summer Immersion Program in Washington DC field trip to the Smithsonian National Museum of Natural History</small>
+
+<small>Slides and Jupyter notebook available at [https://github.com/amdevine/gwc-endangered-species](https://github.com/amdevine/gwc-endangered-species)</small>
+:::
+::::::::::::::
 
 # About Me {data-background-image="img/giant-panda.jpeg"}
 
@@ -24,14 +35,13 @@ width: 1400
 
 :::::::::::::: {.columns}
 ::: {.column width="70%"}
-- Montgomery County, MD native
-- Winston Churchill High School (go Bulldogs!)
-- Dartmouth College
-    - Biology (Ecology) and Neuroscience
-- Lab technician
-    - dermatology, infectious disease, coral reefs
-- Data wrangler
-    - Global Genome Initiative
+Winston Churchill High School (go Bulldogs!)
+
+Dartmouth College (BA in Biology (Ecology) and Neuroscience
+
+Lab technician (dermatology, infectious disease, coral reefs)
+
+Data wrangler for the Global Genome Initiative
 :::
 ::: {.column width="30%"}
 ![](img/about_me.jpg)
@@ -45,10 +55,13 @@ width: 1400
 ![](img/ava-sample-tubes-2.jpg)
 :::
 ::: {.column width="70%"}
-- Smithsonian initiative
-- collect all of life on Earth
-- preserve in cryorepositories for genomic research
-- sample data recorded in the [Global Genome Biodiversity Network (GGBN) Data Portal](http://data.ggbn.org/ggbn_portal/)
+Smithsonian initiative
+
+collect all of life on Earth
+
+preserve in cryorepositories for genomic research
+
+sample data recorded in the [Global Genome Biodiversity Network (GGBN) Data Portal](http://data.ggbn.org/ggbn_portal/)
 :::
 ::::::::::::::
 
@@ -74,17 +87,61 @@ My favorite tools:
 
 ## Jupyter Notebook ##
 
-[Jupyter Notebook](http://jupyter.org/)
+:::::::::::::: {.columns}
+::: {.column width="70%"}
+Document that contains executable Python code and Markdown-formatted text
 
+Good for running self-contained analyses
 
+Easily share with others
+
+**[IRkernel](https://irkernel.github.io/)**: Run notebooks with R instead of Python
+
+**[nbviewer](https://nbviewer.jupyter.org/)**: Converts notebooks to shareable HTML documents
+
+**[RISE](https://github.com/damianavila/RISE)**: Run a Jupyter notebook as a slide show
+:::
+::: {.column width="30%"}
+![](img/jupyternb.jpg)
+:::
+::::::::::::::
+
+---
 
 ## OpenRefine ##
 
-[OpenRefine](http://openrefine.org/)
+:::::::::::::: {.columns}
+::: {.column width="60%"}
+![](img/openrefine.jpg)
+:::
+::: {.column width="40%"}
 
-## Pandoc ##
+Powerful tool for cleaning messy data
 
-[Pandoc](http://pandoc.org/MANUAL.html)
+Complex filtering, sorting, and grouping
+
+Mass editing records
+
+Special language ([GREL](https://github.com/OpenRefine/OpenRefine/wiki/General-Refine-Expression-Language)) to filter and edit data with formulas
+
+:::
+::::::::::::::
+
+---
+
+## R ##
+
+Programming language developed for statistics
+
+Powerful at data manipulation
+
+More intuitive than Python when working with data? ¯\\_(ツ)_/¯
+
+**[RStudio](https://www.rstudio.com/)**: popular R development software
+
+**[Shiny](https://shiny.rstudio.com/)**: R library, easily develop web apps to vizualize data
+
+---
 
 # Endangered Species Data {data-background-image="img/golden-toad.jpg"}
 
