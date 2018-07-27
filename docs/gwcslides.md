@@ -65,6 +65,23 @@ Sample data recorded in the [Global Genome Biodiversity Network (GGBN) Data Port
 :::
 ::::::::::::::
 
+## GGI Web Projects ##
+
+:::::::::::::: {.columns}
+::: {.column width="65%"}
+
+GGI Data Tools website (Django; [https://www.globalgeno.me](https://www.globalgeno.me))
+
+GGI Gap Analysis app (Shiny; [https://ggidata.shinyapps.io/gapanalysis](https://ggidata.shinyapps.io/gapanalysis))
+
+genetic_collections (Python library; [https://github.com/MikeTrizna/genetic_collections](https://github.com/MikeTrizna/genetic_collections))
+
+:::
+::: {.column width="35%"}
+![](img/ggi-data-tools.jpg)
+:::
+::::::::::::::
+
 # Data Wrangling {data-background-image="img/whale-shark.jpg"}
 
 ## What is Data Wrangling? ##
@@ -106,15 +123,13 @@ Easily share with others
 :::
 ::::::::::::::
 
----
-
 ## OpenRefine ##
 
 :::::::::::::: {.columns}
-::: {.column width="60%"}
+::: {.column width="50%"}
 ![](img/openrefine.jpg)
 :::
-::: {.column width="40%"}
+::: {.column width="50%"}
 
 Powerful tool for cleaning messy data
 
@@ -127,31 +142,67 @@ Special language ([GREL](https://github.com/OpenRefine/OpenRefine/wiki/General-R
 :::
 ::::::::::::::
 
----
-
 ## R ##
+
+:::::::::::::: {.columns}
+::: {.column width="70%"}
 
 Programming language developed for statistics
 
 Powerful at data manipulation
 
-More intuitive than Python when working with data? ¯\\_(ツ)_/¯
+More intuitive than Python when working with data??
 
 **[RStudio](https://www.rstudio.com/)**: popular R development software
 
 **[Shiny](https://shiny.rstudio.com/)**: R library, easily develop web apps to vizualize data
 
----
+:::
+::: {.column width="30%"}
+![](img/R_logo.png)
+:::
+::::::::::::::
 
 # Endangered Species Data {data-background-image="img/golden-toad.jpg"}
 
-## Environmental Conservation Online System (ECOS)
+## Endangered Species Act ##
 
-U.S. Fish & Wildlife Service
+:::::::::::::: {.columns}
+::: {.column width="70%"}
 
-Keeps track of species listed as Endangered or Threatened
+Administered by the U.S. Fish & Wildlife Service
 
-See Jupyter Notebook containing exploratory analysis: [https://github.com/amdevine/gwc-endangered-species/blob/master/US%20Endangered%20Species%20Data.ipynb](https://github.com/amdevine/gwc-endangered-species/blob/master/US%20Endangered%20Species%20Data.ipynb)
+Established in 1973 *"to conserve and protect endangered and threatened species and their habitats"*
+
+Species are listed under the ESA in two ways:
+
+1. FWS scientist assessment
+2. Petition from the general public
+
+:::
+::: {.column width="30%"}
+![Virginia big-eared bat](img/big-eared-bat.jpg)
+:::
+::::::::::::::
+
+
+## What do we want to know? ##
+
+What question are we trying to answer?
+
+> How have rates of listing species under the Endangered Species Act changed over time?
+
+What summary or visualization do we want to produce at the end?
+
+> A bar graph showing the number of species listed by year
+
+## Environmental Conservation Online System (ECOS) ##
+
+Database that serves reports on threatened and endangered species
+
+Pre-generated reports available online here: [https://ecos.fws.gov/ecp/species-reports](https://ecos.fws.gov/ecp/species-reports)
+
+Let's look at these data in a Jupyter notebook: [https://github.com/amdevine/gwc-endangered-species/blob/master/US%20Endangered%20Species%20Data.ipynb](https://github.com/amdevine/gwc-endangered-species/blob/master/US%20Endangered%20Species%20Data.ipynb)
 
 # Thanks! {data-background-image="img/rafflesia.jpg"}
 
@@ -175,7 +226,6 @@ See Jupyter Notebook containing exploratory analysis: [https://github.com/amdevi
 
 ## Image Credits ##
 <small>
-
 **Title Slide**: Grey Crowned Cranes. Image from Pexels, CC0 License. [https://www.pexels.com/photo/nature-bird-love-heart-45853/](https://www.pexels.com/photo/nature-bird-love-heart-45853/)
 
 **About Me**: Giant Panda. Photo by Cesar Aguilar from Pexels, Pexels License. [https://www.pexels.com/photo/panda-1123765/](https://www.pexels.com/photo/panda-1123765/)
@@ -192,12 +242,15 @@ See Jupyter Notebook containing exploratory analysis: [https://github.com/amdevi
 
 **Thanks**: Rafflesia arnoldii. Image from lazypenguins.com, blog post "15 strangely beautiful flowers". [https://lazypenguins.com/15-strangely-beautiful-flowers/](https://lazypenguins.com/15-strangely-beautiful-flowers/)
 
-**Thanks**: Joes Apartment Cockroach GIF. Image from GIPHY. [https://giphy.com/gifs/scarface-when-mtv-was-worth-watching-joes-apartment-CbY83hpLkcrZe](https://giphy.com/gifs/scarface-when-mtv-was-worth-watching-joes-apartment-CbY83hpLkcrZe)
+**Any Questions**: Joes Apartment Cockroach GIF. Image from GIPHY. [https://giphy.com/gifs/scarface-when-mtv-was-worth-watching-joes-apartment-CbY83hpLkcrZe](https://giphy.com/gifs/scarface-when-mtv-was-worth-watching-joes-apartment-CbY83hpLkcrZe)
 
 </small>
 
+## Any Questions? 
 
-
+<center>
+![](img/cockroach.gif){ width=50% }
+</center>
 
 
 
