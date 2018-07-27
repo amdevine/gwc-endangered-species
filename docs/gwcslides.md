@@ -57,11 +57,11 @@ Data wrangler for the Global Genome Initiative
 ::: {.column width="70%"}
 Smithsonian initiative
 
-collect all of life on Earth
+Collect all of life on Earth
 
-preserve in cryorepositories for genomic research
+Preserve in cryorepositories for genomic research
 
-sample data recorded in the [Global Genome Biodiversity Network (GGBN) Data Portal](http://data.ggbn.org/ggbn_portal/)
+Sample data recorded in the [Global Genome Biodiversity Network (GGBN) Data Portal](http://data.ggbn.org/ggbn_portal/)
 :::
 ::::::::::::::
 
@@ -78,9 +78,9 @@ sample data recorded in the [Global Genome Biodiversity Network (GGBN) Data Port
 
 My favorite tools:
 
-- scripting languages: Python, R, VBA
-- applications: [OpenRefine](http://openrefine.org/), [Jupyter Notebook](http://jupyter.org/), Excel, [Pandoc](http://pandoc.org/MANUAL.html)
-- version control: GitHub
+- Scripting languages: Python, R, VBA
+- Applications: [OpenRefine](http://openrefine.org/), [Jupyter Notebook](http://jupyter.org/), Excel, [Pandoc](http://pandoc.org/MANUAL.html)
+- Version control: GitHub
 
 :::
 ::::::::::::::
@@ -145,14 +145,13 @@ More intuitive than Python when working with data? ¯\\_(ツ)_/¯
 
 # Endangered Species Data {data-background-image="img/golden-toad.jpg"}
 
-## Environmental Conservation Online System
+## Environmental Conservation Online System (ECOS)
 
-- U.S. Fish & Wildlife Service
+U.S. Fish & Wildlife Service
 
-https://ecos.fws.gov/ecp0/reports/ad-hoc-species-report
+Keeps track of species listed as Endangered or Threatened
 
-kingdom=V&kingdom=I&status=E&status=T&status=EmE&status=EmT&status=EXPE&status=EXPN&status=SAE&status=SAT&mapstatus=3&fcrithab=on&fstatus=on&fspecrule=on&finvpop=on&fgroup=on&header=Listed+Animals
-
+See Jupyter Notebook containing exploratory analysis: [https://github.com/amdevine/gwc-endangered-species/blob/master/US%20Endangered%20Species%20Data.ipynb](https://github.com/amdevine/gwc-endangered-species/blob/master/US%20Endangered%20Species%20Data.ipynb)
 
 # Thanks! {data-background-image="img/rafflesia.jpg"}
 
