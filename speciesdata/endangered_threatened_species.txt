@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 <!DOCTYPE html>
 <html lang="en-US">
 
@@ -99,25 +88,6 @@ margin-bottom:5px;
 
 </head>
 <body onload=""  onunload="">
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <header id="page-header" >
     <div class="black-bar">
         <div class="container">
