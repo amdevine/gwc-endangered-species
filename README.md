@@ -16,7 +16,7 @@ You can navigate through the slides with arrow keys or the spacebar. You can pre
 
 **US Endangered Species Data.ipynb**: Jupyter notebook to analyze the endangered species data provided by ECOS
 
-**GWC Endangered Species Slides.pdf**: PDF copy of the slides
+**Exploring Endangered Species Data with Python.pdf**: PDF copy of the slides
 
 **docs/**: Contains the files powering the Reveal.js presentation.
 
